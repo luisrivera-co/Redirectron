@@ -8,7 +8,7 @@
 		<p>This page will redirect you to Pythonista to run your <%= script %> script. Remember to add it to you Home Screen so you can do this quicker in the future.</p>
 		<script type="text/javascript">
 		var count = 1;
-		var redirect = "http://www.apple.com";
+		var redirect = "pythonista://" + <%= script %> + "?=run";
 		 
 		function countDown(){
 		    var timer = document.getElementById("timer");

@@ -14,7 +14,7 @@ app.get("/", function(request, responce) {
 app.get("/pythonista/:what?", function(request, responce) {
 	var what = request.params.what;
 	console.log("GET /pythonista/" + what);
-	responce.send("Launch " + what + " in Pythonista")
+	responce.render("pythonista", {script: what});
 });
 
 app.post("/", function(request, responce){
