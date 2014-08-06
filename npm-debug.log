@@ -1,0 +1,73 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'fs', '--save' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'fs', null ]
+6 verbose cache add name=undefined spec="fs" args=["fs",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'fs',
+7 verbose parsed url   path: 'fs',
+7 verbose parsed url   href: 'fs' }
+8 silly lockFile 3f4bb586-fs fs
+9 verbose lock fs /Users/ulf/.npm/3f4bb586-fs.lock
+10 silly lockFile 3f4bb586-fs fs
+11 silly lockFile 3f4bb586-fs fs
+12 verbose addNamed [ 'fs', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile a107b96b-fs fs@
+15 verbose lock fs@ /Users/ulf/.npm/a107b96b-fs.lock
+16 silly addNameRange { name: 'fs', range: '*', hasData: false }
+17 verbose request where is /fs
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 357c672879213929
+20 verbose url raw /fs
+21 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+22 verbose url resolved https://registry.npmjs.org/fs
+23 verbose request where is https://registry.npmjs.org/fs
+24 info trying registry request attempt 1 at 10:26:38
+25 verbose etag "5BQZWWEVHQEXWCPP0V3B1TODR"
+26 http GET https://registry.npmjs.org/fs
+27 http 404 https://registry.npmjs.org/fs
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Wed, 06 Aug 2014 14:26:36 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+28 silly registry.get     etag: '"5BQZWWEVHQEXWCPP0V3B1TODR"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '397',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-at52-ATL',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1407335196.689465,VS0,VE34',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile a107b96b-fs fs@
+30 silly lockFile a107b96b-fs fs@
+31 error 404 Not Found
+31 error 404
+31 error 404 'fs' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'Redirectron'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Darwin 14.0.0
+33 error command "node" "/usr/local/bin/npm" "install" "fs" "--save"
+34 error cwd /Users/ulf/dev/Redirectron
+35 error node -v v0.10.30
+36 error npm -v 1.4.21
+37 error code E404
+38 verbose exit [ 1, true ]
