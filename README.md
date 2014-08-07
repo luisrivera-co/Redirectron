@@ -1,5 +1,10 @@
 Redirectron
 ===========
+Redirectron is a web app that gives users a quick way to launch their Pythonista scripts on their iPhone/iPad.
+Simply type the name of your script (case sensitive) into the text area of the first page and a page will be generated that can be bookmarked and added to the Home Screen.
+Then everytime you tap the icon, the script will be lanched from Safari.
+You can deploy your own using this code or just use mine here
+http://redirectron.herokuapp.com
 
-Forces a redirect on a web page to make it easier to do some things on smart phones
-As seen here http://redirectron.herokuapp.com
+All the front end goodness is by Keisha Hartley
+http://keisha.in
