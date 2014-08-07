@@ -3,10 +3,10 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"  />
 	<meta name="description" content="A page to redirect your phython script for easy bookmarking">
 
-	<title>Mr.Redirect</title>
+	<title>Redirectron</title>
 
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 	<!--[if lte IE 8]>
@@ -21,14 +21,14 @@
 	<body>
 		<div class="container">
 				
-		<h1 class="is-center big">Mr.Redirect</h1>
+		<h1 class="is-center big">Redirectron</h1>
 
 		<div class="pure-g">
 			<div class="pure-u-1 l-box">
-				<form class="pure-form pure-form-stacked mbm is-center">
+				<form class="pure-form pure-form-stacked mbm is-center" method="post" action="/">
 				    <fieldset >
 				        <h3>Type the name of your script here</h3>
-						<textarea class="center pure-u-1 pure-u-md-1-4" rows="10" cols="100%" placeholder="Type the name of your script here"></textarea>
+						<textarea class="center pure-u-1 pure-u-md-1-4" rows="9" cols="100%" placeholder="Type the name of your script here" name="pyscriptname"></textarea>
 					</fieldset>
 					<button class="button-xlarge pure-button pure-button-primary pure-input-1-4" type="submit">Submit</button>
 				</form>
