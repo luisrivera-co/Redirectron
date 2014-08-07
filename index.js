@@ -7,10 +7,11 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({
 	extended: true
 }));
+app.use(express.static(__dirname + '/public'));
 
 app.get("/", function(request, responce) {
 	console.log("GET /")
-    responce.render('default');
+    responce.render('index');
 });
 
 app.get("/pythonista/:what?", function(request, responce) {
