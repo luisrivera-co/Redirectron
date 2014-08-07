@@ -14,16 +14,16 @@ app.get("/", function(request, responce) {
     responce.render('index');
 });
 
-app.get("/pythonista/:what?", function(request, responce) {
+app.get("/pythonista-styled/:what?", function(request, responce) {
 	var what = request.params.what;
-	console.log("GET /pythonista/" + what);
-	responce.render("pythonista", {script: what});
+	console.log("GET /pythonista-styled/" + what);
+	responce.render("pythonista-styled", {script: what});
 });
 
 app.post("/", function(request, responce){
 	var pyscript = request.body.pyscriptname
-	console.log("POST /pythonista/" + pyscript);
-    responce.redirect("/pythonista/" + pyscript);
+	console.log("POST /pythonista-styled/" + pyscript);
+    responce.redirect("/pythonista-styled/" + pyscript);
 });
 
 var server = app.listen(process.env.PORT || 5000,function() {
