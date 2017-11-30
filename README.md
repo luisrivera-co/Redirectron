@@ -1,7 +1,9 @@
 Redirectron
 ===========
 
-#ATTENTION
+ATTENTION
+===========
+
 This project uses a dependency with a known security flaw, but I am no longer developing it. Do not use this project in production. Just use the code for reference.
 
 Redirectron is a web app that gives users a quick way to launch their Pythonista scripts on their iPhone/iPad.
